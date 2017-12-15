@@ -1,8 +1,8 @@
 # sudoku-solver-by-using-opencv
 This is a homework project for opencv course.
 
-！[original sudoku](https://github.com/shabiouyang/sudoku-solver-by-using-opencv/blob/master/sudoku.jpg)
-！[result](https://github.com/shabiouyang/sudoku-solver-by-using-opencv/blob/master/result.jpg)
+！[iamge](https://github.com/shabiouyang/sudoku-solver-by-using-opencv/blob/master/sudoku.jpg)
+！[image](https://github.com/shabiouyang/sudoku-solver-by-using-opencv/blob/master/result.jpg)
 
 How to use:
 1. Please input 'mkdir numbers' in command window to creat a new empty folder.
