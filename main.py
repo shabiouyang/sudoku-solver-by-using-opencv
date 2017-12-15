@@ -48,7 +48,7 @@ def orderPoints(approx):
 	biggestBlob.append(approx[3][0])
 	biggestBlob.append(approx[2][0])
 	biggestBlob.append(approx[1][0])
-	print(biggestBlob)
+	#print(biggestBlob)
 	return biggestBlob
 def transformAndResize(image, biggestBlob):
 	transformed = fourpointtransform(image, biggestBlob)
@@ -78,7 +78,7 @@ def fourpointtransform(image, orderedPoints):
 	outputQuad.append([max_width, max_height])
 	outputQuad.append([0, max_height])
 	inputQuad = np.float32(inputQuad)
-	print(inputQuad)
+	#print(inputQuad)
 	outputQuad = np.float32(outputQuad)
 	matrix = cv2.getPerspectiveTransform(inputQuad, outputQuad)
 	warped = cv2.warpPerspective(image, matrix, (max_width, max_height))
