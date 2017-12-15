@@ -87,7 +87,7 @@ def fourpointtransform(image, orderedPoints):
 	dst = cv2.warpAffine(warped,rot,(cols,rows))
 	return dst
 # main function
-image = cv2.imread('1.jpg')
+image = cv2.imread('sudoku.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blur = cv2.GaussianBlur(gray, (7,7), 1.5, 1.5)
 thresh = cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 15, -2)
