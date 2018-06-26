@@ -1,7 +1,8 @@
 # sudoku-solver-by-using-opencv
 This is a homework project for opencv course.
-
+## Original
 <img src='https://github.com/shabiouyang/sudoku-solver-by-using-opencv/blob/master/image/sudoku.jpg' width=360>
+## Result
 <img src='https://github.com/shabiouyang/sudoku-solver-by-using-opencv/blob/master/image/result.jpg' width=360>
 
 ## How to use:
